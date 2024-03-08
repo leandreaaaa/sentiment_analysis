@@ -1,19 +1,21 @@
 # Sentiment Analysis on Movie Reviews
 
-This project uses the Hugging Face Transformers library to perform sentiment analysis on movie reviews.
+This Sentiment analysis tool helps to classify movie reviews into positive or negative categories
+
+The IMDB dataset from huggingfaces will be utilised for this classification
 
 ## Instructions
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone <https://github.com/leandreaaaa/sentiment_analysis>
     cd sentiment-analysis-movie-reviews
     ```
 
-2. Set up a virtual environment:
+2. Setting up the virtual environment:
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+    source venv/bin/activate
     ```
 
 3. Install dependencies:
@@ -30,8 +32,3 @@ This project uses the Hugging Face Transformers library to perform sentiment ana
     ```bash
     python sentiment_analysis.py
     ```
-
-## Notes
-
-- Make sure to replace `<repository_url>` with the actual URL of your Git repository.
-- Customize the reviews in `sentiment_analysis.py` as needed.
